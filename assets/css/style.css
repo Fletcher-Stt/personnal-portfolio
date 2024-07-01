@@ -480,6 +480,13 @@ main {
   padding: 0 10px;
 }
 
+.navbar-item button a {
+  color: var(--light-gray);
+}
+
+.navbar-item button a:hover,
+.navbar-item button a:focus { color: var(--light-gray-70); }
+
 .navbar-link {
   color: var(--light-gray);
   font-size: var(--fs-8);
